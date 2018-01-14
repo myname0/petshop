@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="38cbf535-5bdc-4e88-804a-8b2f4953d70c" name="https://github.com/myname0/petshop.git" url="https://github.com/myname0/petshop.git">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
+    </option>
+  </component>
+</project>
