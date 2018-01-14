@@ -11,8 +11,8 @@ import java.util.Optional;
 @Service
 public class SearchServiceImpl implements SearchService {
     @Autowired
-    private PetShopStorage petShopStorage = new PetShopStorage();
-//    private PetShopStorage petShopStorage = PetShopStorage.getInstance();
+    private PetShopStorage petShopStorage;
+
     public Animal findByName(String name) {
         Optional<Animal> animal = petShopStorage.getAnimalList()
                 .stream()

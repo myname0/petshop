@@ -12,7 +12,7 @@ public class App {
     public static void main(String[] args) {
         ApplicationContext context = new AnnotationConfigApplicationContext(PetShopConfig.class);
         SpringApplication.run(App.class, args);
-        RealLifeEmulator emulator = new RealLifeEmulator();
+        RealLifeEmulator emulator = (RealLifeEmulator) context.getBean("realLifeEmulator");
         emulator.live();
     }
 }

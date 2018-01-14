@@ -10,8 +10,7 @@ import java.util.List;
 @Service
 public class LitteringJob implements Runnable {
     @Autowired
-    private PetShopStorage petShopStorage = new PetShopStorage();
-//    private PetShopStorage petShopStorage = PetShopStorage.getInstance();
+    private PetShopStorage petShopStorage;
     private final int MIN = 20;
     private final int MAX = 30;
 
@@ -20,9 +19,11 @@ public class LitteringJob implements Runnable {
         try {
             while (true) {
                 List<Animal> currentAnimals = petShopStorage.getAnimalList();
-                for (Animal animal : currentAnimals) {
-                    Integer randomDegree = MIN + (int) (Math.random() * MAX);
-                    animal.setLitteringDegree(animal.getLitteringDegree() + randomDegree);
+                if(currentAnimals != null) {
+                    for (Animal animal : currentAnimals) {
+                        Integer randomDegree = MIN + (int) (Math.random() * MAX);
+                        animal.setLitteringDegree(animal.getLitteringDegree() + randomDegree);
+                    }
                 }
                 Thread.sleep(1000);
             }

@@ -42,7 +42,17 @@ public class PetShopConfig {
     }
 
     @Bean
-    PrintingService printingService(){
+    PrintingService printingService() {
         return new PrintingService();
+    }
+
+    @Bean
+    CleaningJob cleaningJob() {
+        return new CleaningJob();
+    }
+
+    @Bean
+    LitteringJob litteringJob() {
+        return new LitteringJob();
     }
 }

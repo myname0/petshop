@@ -340,3 +340,88 @@
 00:16:36.958 [main] DEBUG netcracker.ec.service.RealLifeEmulator - buy: AnimalImpl{name='Cooper', breed='florida white', cost=31, character='aggressive', litteringDegree='0'}
 00:16:40.958 [main] DEBUG netcracker.ec.service.RealLifeEmulator - buy: AnimalImpl{name='Captain', breed='angolan', cost=54, character='affectionate', litteringDegree='0'}
 00:16:54.959 [main] DEBUG netcracker.ec.service.RealLifeEmulator - buy: AnimalImpl{name='Boomer', breed='holland lop', cost=64, character='brave', litteringDegree='0'}
+01:48:37.833 [main] DEBUG netcracker.ec.service.RealLifeEmulator - buy: AnimalImpl{name='Blondie', breed='holland lop', cost=51, character='clever', litteringDegree='0'}
+01:48:39.870 [main] DEBUG netcracker.ec.service.RealLifeEmulator - buy: AnimalImpl{name='Bully', breed='angolan', cost=54, character='clever', litteringDegree='0'}
+01:48:40.870 [main] DEBUG netcracker.ec.service.RealLifeEmulator - sell: AnimalImpl{name='Blondie', breed='holland lop', cost=51, character='clever', litteringDegree='0'}
+01:48:42.870 [main] DEBUG netcracker.ec.service.RealLifeEmulator - buy: AnimalImpl{name='Yeah Boy', breed='holland lop', cost=90, character='stupid', litteringDegree='0'}
+01:48:44.871 [main] DEBUG netcracker.ec.service.RealLifeEmulator - run away: AnimalImpl{name='Yeah Boy', breed='holland lop', cost=90, character='stupid', litteringDegree='0'}
+01:48:47.871 [main] DEBUG netcracker.ec.service.RealLifeEmulator - buy: AnimalImpl{name='Yeah Boy', breed='neon tetra', cost=99, character='affectionate', litteringDegree='0'}
+01:48:48.871 [main] DEBUG netcracker.ec.service.RealLifeEmulator - run away: AnimalImpl{name='Bully', breed='angolan', cost=54, character='clever', litteringDegree='0'}
+01:49:33.362 [main] DEBUG netcracker.ec.service.RealLifeEmulator - buy: AnimalImpl{name='Blondie', breed='angolan', cost=65, character='brave', litteringDegree='0'}
+01:49:39.373 [main] DEBUG netcracker.ec.service.RealLifeEmulator - buy: AnimalImpl{name='Leny', breed='angolan', cost=16, character='neat', litteringDegree='0'}
+01:49:41.373 [main] DEBUG netcracker.ec.service.RealLifeEmulator - sell: AnimalImpl{name='Leny', breed='angolan', cost=16, character='neat', litteringDegree='0'}
+01:49:43.373 [main] DEBUG netcracker.ec.service.RealLifeEmulator - buy: AnimalImpl{name='Bully', breed='southern African', cost=63, character='neat', litteringDegree='0'}
+01:49:44.373 [main] DEBUG netcracker.ec.service.RealLifeEmulator - buy: AnimalImpl{name='Blondie', breed='red', cost=58, character='aggressive', litteringDegree='0'}
+01:49:45.373 [main] DEBUG netcracker.ec.service.RealLifeEmulator - run away: AnimalImpl{name='Bully', breed='southern African', cost=63, character='neat', litteringDegree='0'}
+01:49:47.373 [main] DEBUG netcracker.ec.service.RealLifeEmulator - run away: AnimalImpl{name='Blondie', breed='angolan', cost=65, character='brave', litteringDegree='0'}
+01:49:48.373 [main] DEBUG netcracker.ec.service.RealLifeEmulator - run away: AnimalImpl{name='Blondie', breed='red', cost=58, character='aggressive', litteringDegree='0'}
+02:01:26.311 [main] DEBUG netcracker.ec.service.RealLifeEmulator - buy: AnimalImpl{name='Chewy', breed='cherry barb', cost=69, character='stupid', litteringDegree='0'}
+02:01:29.429 [main] DEBUG netcracker.ec.service.RealLifeEmulator - run away: AnimalImpl{name='Chewy', breed='cherry barb', cost=69, character='stupid', litteringDegree='0'}
+02:01:35.430 [main] DEBUG netcracker.ec.service.RealLifeEmulator - buy: AnimalImpl{name='Chewy', breed='angolan', cost=35, character='brave', litteringDegree='0'}
+02:01:41.431 [main] DEBUG netcracker.ec.service.RealLifeEmulator - sell: AnimalImpl{name='Chewy', breed='angolan', cost=35, character='brave', litteringDegree='0'}
+02:01:50.431 [main] DEBUG netcracker.ec.service.RealLifeEmulator - buy: AnimalImpl{name='April', breed='american fuzzy lop', cost=20, character='neat', litteringDegree='0'}
+02:01:51.432 [main] DEBUG netcracker.ec.service.RealLifeEmulator - buy: AnimalImpl{name='Captain', breed='neon tetra', cost=34, character='affectionate', litteringDegree='0'}
+02:01:54.432 [main] DEBUG netcracker.ec.service.RealLifeEmulator - run away: AnimalImpl{name='Captain', breed='neon tetra', cost=34, character='affectionate', litteringDegree='0'}
+02:02:04.432 [main] DEBUG netcracker.ec.service.RealLifeEmulator - buy: AnimalImpl{name='Cooper', breed='western grey', cost=82, character='affectionate', litteringDegree='0'}
+02:02:05.432 [main] DEBUG netcracker.ec.service.RealLifeEmulator - buy: AnimalImpl{name='John', breed='red', cost=5, character='aggressive', litteringDegree='0'}
+02:02:06.432 [main] DEBUG netcracker.ec.service.RealLifeEmulator - sell: AnimalImpl{name='April', breed='american fuzzy lop', cost=20, character='neat', litteringDegree='0'}
+02:02:08.432 [main] DEBUG netcracker.ec.service.RealLifeEmulator - run away: AnimalImpl{name='John', breed='red', cost=5, character='aggressive', litteringDegree='0'}
+02:02:12.454 [main] DEBUG netcracker.ec.service.RealLifeEmulator - sell: AnimalImpl{name='Cooper', breed='western grey', cost=82, character='affectionate', litteringDegree='0'}
+02:02:17.551 [main] DEBUG netcracker.ec.service.RealLifeEmulator - buy: AnimalImpl{name='Yeah Boy', breed='western grey', cost=85, character='affectionate', litteringDegree='0'}
+02:02:19.551 [main] DEBUG netcracker.ec.service.RealLifeEmulator - buy: AnimalImpl{name='Cooper', breed='guppie', cost=56, character='affectionate', litteringDegree='0'}
+02:02:22.551 [main] DEBUG netcracker.ec.service.RealLifeEmulator - run away: AnimalImpl{name='Cooper', breed='guppie', cost=56, character='affectionate', litteringDegree='0'}
+02:03:11.557 [main] DEBUG netcracker.ec.service.RealLifeEmulator - buy: AnimalImpl{name='Junior', breed='southern African', cost=89, character='affectionate', litteringDegree='0'}
+02:03:15.566 [main] DEBUG netcracker.ec.service.RealLifeEmulator - buy: AnimalImpl{name='John', breed='harlequin', cost=44, character='affectionate', litteringDegree='0'}
+02:03:16.579 [main] DEBUG netcracker.ec.service.RealLifeEmulator - buy: AnimalImpl{name='Leny', breed='guppie', cost=97, character='neat', litteringDegree='0'}
+02:03:17.580 [main] DEBUG netcracker.ec.service.RealLifeEmulator - buy: AnimalImpl{name='Leny', breed='western grey', cost=99, character='aggressive', litteringDegree='0'}
+02:03:18.580 [main] DEBUG netcracker.ec.service.RealLifeEmulator - buy: AnimalImpl{name='Boomer', breed='harlequin', cost=38, character='affectionate', litteringDegree='0'}
+02:03:21.581 [main] DEBUG netcracker.ec.service.RealLifeEmulator - buy: AnimalImpl{name='Bully', breed='holland lop', cost=17, character='affectionate', litteringDegree='0'}
+02:03:24.581 [main] DEBUG netcracker.ec.service.RealLifeEmulator - run away: AnimalImpl{name='Leny', breed='western grey', cost=99, character='aggressive', litteringDegree='0'}
+02:03:28.581 [main] DEBUG netcracker.ec.service.RealLifeEmulator - buy: AnimalImpl{name='April', breed='florida white', cost=34, character='stupid', litteringDegree='0'}
+02:03:30.581 [main] DEBUG netcracker.ec.service.RealLifeEmulator - run away: AnimalImpl{name='Leny', breed='guppie', cost=97, character='neat', litteringDegree='0'}
+02:03:31.581 [main] DEBUG netcracker.ec.service.RealLifeEmulator - buy: AnimalImpl{name='Blondie', breed='neon tetra', cost=99, character='stupid', litteringDegree='0'}
+02:05:19.034 [main] DEBUG netcracker.ec.service.RealLifeEmulator - buy: AnimalImpl{name='Shaggy', breed='western grey', cost=72, character='stupid', litteringDegree='0'}
+02:05:20.042 [main] DEBUG netcracker.ec.service.RealLifeEmulator - run away: AnimalImpl{name='Shaggy', breed='western grey', cost=72, character='stupid', litteringDegree='0'}
+02:05:22.043 [main] DEBUG netcracker.ec.service.RealLifeEmulator - buy: AnimalImpl{name='Yeah Boy', breed='southern African', cost=6, character='affectionate', litteringDegree='0'}
+02:05:57.530 [main] DEBUG netcracker.ec.service.RealLifeEmulator - buy: AnimalImpl{name='Junior', breed='holland lop', cost=37, character='clever', litteringDegree='0'}
+02:06:47.086 [main] DEBUG netcracker.ec.service.RealLifeEmulator - buy: AnimalImpl{name='Cooper', breed='harlequin', cost=19, character='pretty', litteringDegree='0'}
+02:06:49.097 [main] DEBUG netcracker.ec.service.RealLifeEmulator - buy: AnimalImpl{name='Leny', breed='guppie', cost=74, character='brave', litteringDegree='0'}
+02:06:51.097 [main] DEBUG netcracker.ec.service.RealLifeEmulator - sell: AnimalImpl{name='Leny', breed='guppie', cost=74, character='brave', litteringDegree='0'}
+02:06:57.097 [main] DEBUG netcracker.ec.service.RealLifeEmulator - run away: AnimalImpl{name='Cooper', breed='harlequin', cost=19, character='pretty', litteringDegree='0'}
+02:07:12.098 [main] DEBUG netcracker.ec.service.RealLifeEmulator - buy: AnimalImpl{name='Magic', breed='southern African', cost=46, character='brave', litteringDegree='0'}
+02:07:14.098 [main] DEBUG netcracker.ec.service.RealLifeEmulator - buy: AnimalImpl{name='Leny', breed='american fuzzy lop', cost=62, character='stupid', litteringDegree='0'}
+02:07:17.098 [main] DEBUG netcracker.ec.service.RealLifeEmulator - buy: AnimalImpl{name='Cooper', breed='cherry barb', cost=59, character='neat', litteringDegree='0'}
+02:07:18.098 [main] DEBUG netcracker.ec.service.RealLifeEmulator - run away: AnimalImpl{name='Magic', breed='southern African', cost=46, character='brave', litteringDegree='0'}
+02:07:19.098 [main] DEBUG netcracker.ec.service.RealLifeEmulator - buy: AnimalImpl{name='Blondie', breed='angolan', cost=43, character='pretty', litteringDegree='0'}
+02:07:20.098 [main] DEBUG netcracker.ec.service.RealLifeEmulator - run away: AnimalImpl{name='Cooper', breed='cherry barb', cost=59, character='neat', litteringDegree='0'}
+02:07:22.105 [main] DEBUG netcracker.ec.service.RealLifeEmulator - sell: AnimalImpl{name='Leny', breed='american fuzzy lop', cost=62, character='stupid', litteringDegree='0'}
+02:07:24.106 [main] DEBUG netcracker.ec.service.RealLifeEmulator - buy: AnimalImpl{name='ITSY-BITSY', breed='neon tetra', cost=94, character='brave', litteringDegree='0'}
+02:07:25.106 [main] DEBUG netcracker.ec.service.RealLifeEmulator - sell: AnimalImpl{name='Blondie', breed='angolan', cost=43, character='pretty', litteringDegree='0'}
+02:07:26.106 [main] DEBUG netcracker.ec.service.RealLifeEmulator - sell: AnimalImpl{name='ITSY-BITSY', breed='neon tetra', cost=94, character='brave', litteringDegree='0'}
+02:07:29.106 [main] DEBUG netcracker.ec.service.RealLifeEmulator - buy: AnimalImpl{name='Leny', breed='western grey', cost=18, character='pretty', litteringDegree='0'}
+02:07:33.106 [main] DEBUG netcracker.ec.service.RealLifeEmulator - buy: AnimalImpl{name='Yeah Boy', breed='neon tetra', cost=10, character='clever', litteringDegree='0'}
+02:07:36.106 [main] DEBUG netcracker.ec.service.RealLifeEmulator - sell: AnimalImpl{name='Leny', breed='western grey', cost=18, character='pretty', litteringDegree='0'}
+02:07:37.106 [main] DEBUG netcracker.ec.service.RealLifeEmulator - buy: AnimalImpl{name='Cooper', breed='southern African', cost=11, character='stupid', litteringDegree='0'}
+02:07:40.106 [main] DEBUG netcracker.ec.service.RealLifeEmulator - sell: AnimalImpl{name='Cooper', breed='southern African', cost=11, character='stupid', litteringDegree='0'}
+02:07:41.107 [main] DEBUG netcracker.ec.service.RealLifeEmulator - run away: AnimalImpl{name='Yeah Boy', breed='neon tetra', cost=10, character='clever', litteringDegree='0'}
+02:07:45.107 [main] DEBUG netcracker.ec.service.RealLifeEmulator - buy: AnimalImpl{name='Chewy', breed='holland lop', cost=59, character='clever', litteringDegree='0'}
+02:07:46.107 [main] DEBUG netcracker.ec.service.RealLifeEmulator - sell: AnimalImpl{name='Chewy', breed='holland lop', cost=59, character='clever', litteringDegree='0'}
+02:07:47.107 [main] DEBUG netcracker.ec.service.RealLifeEmulator - buy: AnimalImpl{name='Yeah Boy', breed='western grey', cost=60, character='stupid', litteringDegree='0'}
+02:07:48.107 [main] DEBUG netcracker.ec.service.RealLifeEmulator - buy: AnimalImpl{name='Cooper', breed='eastern grey', cost=60, character='neat', litteringDegree='0'}
+02:07:49.107 [main] DEBUG netcracker.ec.service.RealLifeEmulator - sell: AnimalImpl{name='Cooper', breed='eastern grey', cost=60, character='neat', litteringDegree='0'}
+02:07:50.107 [main] DEBUG netcracker.ec.service.RealLifeEmulator - buy: AnimalImpl{name='John', breed='florida white', cost=36, character='clever', litteringDegree='0'}
+02:07:52.108 [main] DEBUG netcracker.ec.service.RealLifeEmulator - sell: AnimalImpl{name='John', breed='florida white', cost=36, character='clever', litteringDegree='0'}
+02:07:53.108 [main] DEBUG netcracker.ec.service.RealLifeEmulator - sell: AnimalImpl{name='Yeah Boy', breed='western grey', cost=60, character='stupid', litteringDegree='0'}
+02:08:03.109 [main] DEBUG netcracker.ec.service.RealLifeEmulator - buy: AnimalImpl{name='April', breed='neon tetra', cost=81, character='neat', litteringDegree='0'}
+02:09:41.308 [main] DEBUG netcracker.ec.service.RealLifeEmulator - buy: AnimalImpl{name='Magic', breed='eastern grey', cost=46, character='affectionate', litteringDegree='0'}
+02:09:42.317 [main] DEBUG netcracker.ec.service.RealLifeEmulator - sell: AnimalImpl{name='Magic', breed='eastern grey', cost=46, character='affectionate', litteringDegree='0'}
+02:09:43.318 [main] DEBUG netcracker.ec.service.RealLifeEmulator - buy: AnimalImpl{name='April', breed='angolan', cost=7, character='clever', litteringDegree='0'}
+02:09:44.318 [main] DEBUG netcracker.ec.service.RealLifeEmulator - sell: AnimalImpl{name='April', breed='angolan', cost=7, character='clever', litteringDegree='0'}
+02:09:45.318 [main] DEBUG netcracker.ec.service.RealLifeEmulator - buy: AnimalImpl{name='Captain', breed='eastern grey', cost=59, character='brave', litteringDegree='0'}
+02:09:50.318 [main] DEBUG netcracker.ec.service.RealLifeEmulator - sell: AnimalImpl{name='Captain', breed='eastern grey', cost=59, character='brave', litteringDegree='0'}
+02:09:54.318 [main] DEBUG netcracker.ec.service.RealLifeEmulator - buy: AnimalImpl{name='April', breed='neon tetra', cost=35, character='brave', litteringDegree='0'}
+02:09:56.318 [main] DEBUG netcracker.ec.service.RealLifeEmulator - run away: AnimalImpl{name='April', breed='neon tetra', cost=35, character='brave', litteringDegree='0'}
+02:10:00.318 [main] DEBUG netcracker.ec.service.RealLifeEmulator - buy: AnimalImpl{name='ITSY-BITSY', breed='desert', cost=27, character='aggressive', litteringDegree='0'}
+02:10:02.319 [main] DEBUG netcracker.ec.service.RealLifeEmulator - run away: AnimalImpl{name='ITSY-BITSY', breed='desert', cost=27, character='aggressive', litteringDegree='0'}
+02:10:05.319 [main] DEBUG netcracker.ec.service.RealLifeEmulator - buy: AnimalImpl{name='April', breed='holland lop', cost=63, character='clever', litteringDegree='0'}
+02:10:08.319 [main] DEBUG netcracker.ec.service.RealLifeEmulator - buy: AnimalImpl{name='Blondie', breed='angolan', cost=25, character='aggressive', litteringDegree='0'}

@@ -9,7 +9,6 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.servlet.ModelAndView;
 
 import java.util.List;
 
@@ -17,7 +16,7 @@ import java.util.List;
 @org.springframework.stereotype.Controller
 public class Controller {
     @Autowired
-    PetShopStorage petShopStorage = new PetShopStorage();
+    PetShopStorage petShopStorage;
 
     @RequestMapping(value = "/getallitems", method = RequestMethod.GET)
     public ResponseEntity<List<Animal>> getAllGoods() {

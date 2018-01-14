@@ -20,8 +20,7 @@ import java.util.Random;
 @Service
 @ComponentScan
 public class RealLifeEmulator {
-//    @Autowired
-    @Resource
+    @Autowired
     private PetShopStorage petShopStorage;
 
     @Autowired
