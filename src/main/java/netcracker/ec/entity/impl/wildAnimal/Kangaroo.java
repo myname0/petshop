@@ -7,13 +7,12 @@ import netcracker.ec.service.GenerationService;
 import javax.xml.bind.annotation.XmlRootElement;
 import java.util.Random;
 
-//@XmlType(propOrder = {"child"})
+
 @XmlRootElement(name = "kangaroo")
 public class Kangaroo extends AnimalImpl implements WildAnimal {
     private Child child;
 
-    //@XmlType(propOrder = {"age", "weight"})
-    private class Child extends AnimalImpl { //mb public
+    private class Child extends AnimalImpl {
         private Integer age;
         private Integer weight;
 
@@ -68,7 +67,7 @@ public class Kangaroo extends AnimalImpl implements WildAnimal {
     public Kangaroo(String name, String breed, Integer cost, String character, Integer age, Integer weight) {
         super(name, breed, cost, character);
 
-        child = new Child(name, breed, cost, character);
+        child = new Child();
         child.setAge(age);
         child.setWeight(weight);
     }

@@ -24,7 +24,7 @@ public class Controller {
     @RequestMapping(value = "/allitems")
     public ModelAndView getAllGoods(ModelAndView modelAndView){
         PetShopStorage petShopStorage = PetShopStorage.getInstance();
-        modelAndView.setViewName("index");
+        modelAndView.setViewName("allitems");
         modelAndView.getModel().put("allitems", petShopStorage.getAnimalList());
 
         return modelAndView;

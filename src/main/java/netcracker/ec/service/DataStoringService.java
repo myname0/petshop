@@ -20,11 +20,11 @@ public class DataStoringService implements Runnable {
     //private PetShopStorage petShopStorage = new PetShopStorage();
     private PetShopStorage petShopStorage = PetShopStorage.getInstance();
 
-    private void saveToJSON(String fileName) {
+    private void saveToJSON() {
         ObjectMapper objectMapper = new ObjectMapper();
 //        List<Animal> animals = petShopStorage.getAnimalList();
 
-        try (FileOutputStream outputStream = new FileOutputStream("data.json")) {
+        try (FileOutputStream outputStream = new FileOutputStream("src/main/resources/data.json")) {
 //            for(Animal animal : animals)
 //                objectMapper.writeValue(outputStream, animal);
             objectMapper.writeValue(outputStream, petShopStorage);
@@ -33,13 +33,13 @@ public class DataStoringService implements Runnable {
         }
     }
 
-    private void saveToXML(String fileName){
+    private void saveToXML(){
         try {
             PetShopStorage petShopStorage = PetShopStorage.getInstance();
             JAXBContext context = JAXBContext.newInstance(PetShopStorage.class, Fish.class, Rabbit.class, Meerkat.class, Kangaroo.class);
             Marshaller marshaller = context.createMarshaller();
             marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, Boolean.TRUE);
-            try (FileOutputStream outputStream = new FileOutputStream("data.xml")) {
+            try (FileOutputStream outputStream = new FileOutputStream("src/main/resources/data.xml")) {
                 marshaller.marshal(petShopStorage, outputStream);
             } catch (IOException ex) {
                 ex.printStackTrace();
@@ -53,8 +53,8 @@ public class DataStoringService implements Runnable {
     public void run() {
         try {
             while (true) {
-                saveToJSON("");
-                saveToXML("");
+                saveToJSON();
+                saveToXML();
                 Thread.sleep(10000);
             }
         } catch (InterruptedException e) {

@@ -38,9 +38,9 @@ public class PetShopStorage {
     public List<Animal> getAnimalList() {
         if (animalList == null) {
             ObjectMapper mapper = new ObjectMapper();
-            try (FileInputStream outputStream = new FileInputStream("src/anData.json")) {
+            try (FileInputStream outputStream = new FileInputStream("src/main/resources/data.json")) {
                 PetShopStorage petShopStorage = mapper.readValue(outputStream, PetShopStorage.class);
-                animalList = new LinkedList<Animal>(petShopStorage.getAnimalList());
+                animalList = new LinkedList<>(petShopStorage.getAnimalList());
             } catch (IOException ex) {
                 ex.printStackTrace();
             }
