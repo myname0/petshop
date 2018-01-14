@@ -3,6 +3,7 @@ package netcracker.ec.entity;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonSubTypes;
 import com.fasterxml.jackson.annotation.JsonTypeInfo;
+import com.fasterxml.jackson.databind.annotation.JsonTypeResolver;
 import netcracker.ec.entity.impl.pet.Fish;
 import netcracker.ec.entity.impl.pet.Rabbit;
 import netcracker.ec.entity.impl.wildAnimal.Kangaroo;

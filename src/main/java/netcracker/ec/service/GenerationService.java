@@ -1,10 +1,12 @@
 package netcracker.ec.service;
 
+import org.springframework.stereotype.Service;
+
 import java.util.Arrays;
 import java.util.List;
 import java.util.Random;
 
-
+@Service
 public class GenerationService {
     private static final List<String> NAME = Arrays.asList("John", "Shaggy", "Blondie", "April", "Boomer",
             "Yeah Boy", "Bully", "Captain", "Chewy", "Cooper", "ITSY-BITSY", "Junior", "Leny", "Magic");

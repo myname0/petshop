@@ -3,12 +3,16 @@ package netcracker.ec.service.impl;
 import netcracker.ec.entity.Animal;
 import netcracker.ec.service.SearchService;
 import netcracker.ec.storage.PetShopStorage;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.Optional;
 
+@Service
 public class SearchServiceImpl implements SearchService {
-//    private PetShopStorage petShopStorage = new PetShopStorage();
-    private PetShopStorage petShopStorage = PetShopStorage.getInstance();
+    @Autowired
+    private PetShopStorage petShopStorage = new PetShopStorage();
+//    private PetShopStorage petShopStorage = PetShopStorage.getInstance();
     public Animal findByName(String name) {
         Optional<Animal> animal = petShopStorage.getAnimalList()
                 .stream()

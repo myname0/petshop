@@ -22,5 +22,4 @@ public class Fish extends AnimalImpl implements Pet {
         super(name, breed, cost, character);
 
     }
-
 }

@@ -8,6 +8,7 @@ import netcracker.ec.entity.impl.wildAnimal.Meerkat;
 import netcracker.ec.storage.PetShopStorage;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
@@ -15,18 +16,21 @@ import javax.xml.bind.Marshaller;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
+@Service
 public class DataStoringService implements Runnable {
 
     //private PetShopStorage petShopStorage = new PetShopStorage();
-    private PetShopStorage petShopStorage = PetShopStorage.getInstance();
+    @Autowired
+    private PetShopStorage petShopStorage = new PetShopStorage();
+//    private PetShopStorage petShopStorage = PetShopStorage.getInstance();
 
     private void saveToJSON() {
         ObjectMapper objectMapper = new ObjectMapper();
 //        List<Animal> animals = petShopStorage.getAnimalList();
 
         try (FileOutputStream outputStream = new FileOutputStream("src/main/resources/data.json")) {
-//            for(Animal animal : animals)
-//                objectMapper.writeValue(outputStream, animal);
+
+//                objectMapper.writeValue(outputStream, animals);
             objectMapper.writeValue(outputStream, petShopStorage);
         } catch (IOException ex) {
             ex.printStackTrace();
@@ -35,7 +39,6 @@ public class DataStoringService implements Runnable {
 
     private void saveToXML(){
         try {
-            PetShopStorage petShopStorage = PetShopStorage.getInstance();
             JAXBContext context = JAXBContext.newInstance(PetShopStorage.class, Fish.class, Rabbit.class, Meerkat.class, Kangaroo.class);
             Marshaller marshaller = context.createMarshaller();
             marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, Boolean.TRUE);

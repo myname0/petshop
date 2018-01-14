@@ -6,6 +6,7 @@ import netcracker.ec.entity.impl.pet.Fish;
 import netcracker.ec.entity.impl.pet.Rabbit;
 import netcracker.ec.entity.impl.wildAnimal.Kangaroo;
 import netcracker.ec.entity.impl.wildAnimal.Meerkat;
+import org.springframework.stereotype.Component;
 
 import javax.xml.bind.annotation.*;
 import java.io.FileInputStream;
@@ -15,6 +16,7 @@ import java.util.List;
 
 @XmlRootElement
 @XmlAccessorType(XmlAccessType.FIELD)
+@Component
 public class PetShopStorage {
     private final static PetShopStorage INSTANCE = new PetShopStorage();
     @XmlElementWrapper(name = "animals")
@@ -24,23 +26,23 @@ public class PetShopStorage {
             @XmlElement(name = "kangaroo", type = Kangaroo.class),
             @XmlElement(name = "meerkat", type = Meerkat.class)
     })
-    private List<Animal> animalList;
+    private List<Animal> animalList = new LinkedList<>();
 
-//    public PetShopStorage() {
+    public PetShopStorage() {
+    }
+//    private PetShopStorage(){
 //    }
-    private PetShopStorage(){
-    }
 
-    public static PetShopStorage getInstance() {
-        return INSTANCE;
-    }
+//    public static PetShopStorage getInstance() {
+//        return INSTANCE;
+//    }
 
     public List<Animal> getAnimalList() {
         if (animalList == null) {
             ObjectMapper mapper = new ObjectMapper();
             try (FileInputStream outputStream = new FileInputStream("src/main/resources/data.json")) {
-                PetShopStorage petShopStorage = mapper.readValue(outputStream, PetShopStorage.class);
-                animalList = new LinkedList<>(petShopStorage.getAnimalList());
+//                PetShopStorage petShopStorage = mapper.readValue(outputStream, PetShopStorage.class);
+ //               animalList = new LinkedList<>(petShopStorage.getAnimalList());
             } catch (IOException ex) {
                 ex.printStackTrace();
             }

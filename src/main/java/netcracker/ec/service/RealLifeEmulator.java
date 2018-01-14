@@ -10,14 +10,22 @@ import netcracker.ec.storage.PetShopStorage;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
+import javax.annotation.Resource;
 import java.util.Random;
 
+@Service
+@ComponentScan
 public class RealLifeEmulator {
+//    @Autowired
+    @Resource
+    private PetShopStorage petShopStorage;
 
-    //private PetShopStorage petShopStorage = new PetShopStorage();
-    private PetShopStorage petShopStorage = PetShopStorage.getInstance();
-    private BuySellService buySellService = new BuySellServiceImpl();
+    @Autowired
+    private BuySellService buySellService;
 
     private static final Logger LOG = LogManager.getLogger(RealLifeEmulator.class);
 

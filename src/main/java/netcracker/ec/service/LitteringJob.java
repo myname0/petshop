@@ -2,12 +2,16 @@ package netcracker.ec.service;
 
 import netcracker.ec.entity.Animal;
 import netcracker.ec.storage.PetShopStorage;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-
+@Service
 public class LitteringJob implements Runnable {
-    private PetShopStorage petShopStorage = PetShopStorage.getInstance();
+    @Autowired
+    private PetShopStorage petShopStorage = new PetShopStorage();
+//    private PetShopStorage petShopStorage = PetShopStorage.getInstance();
     private final int MIN = 20;
     private final int MAX = 30;
 
